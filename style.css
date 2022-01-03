@@ -143,6 +143,8 @@ a {
 /* ## Header */
 .header-main {
   position: relative;
+  width: auto;
+  height: 200px;
 }
 .top-header {
   background-color: #1ea600;
@@ -242,6 +244,13 @@ a {
   max-height: 450px;
   min-height: 450px;
   text-align: center;
+}
+
+.photo-slider {
+  position: relative;
+  background-position: 0 0, 100% 11%;
+  left: 10;
+  right: 0;
 }
 .page-banner::before {
   position: absolute;
