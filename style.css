@@ -39,6 +39,7 @@ body {
   color: #000;
   overflow-x: hidden;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -144,7 +145,7 @@ a {
 .header-main {
   position: relative;
   width: auto;
-  height: 200px;
+  height: 50px;
 }
 .top-header {
   background-color: #1ea600;
@@ -239,18 +240,29 @@ a {
 /* ## Banner Section */
 .page-banner {
   position: relative;
-  background-image: url("images/banner-image/about-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
   background-size: cover;
   max-height: 450px;
+  background-position: 100% 16%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: flex-start;
+  -webkit-box-pack: start;
   min-height: 450px;
   text-align: center;
 }
 
 .photo-slider {
   position: relative;
-  background-position: 0 0, 100% 11%;
   left: 10;
   right: 0;
+  padding: 100px 10px 20px;
+  align-items: center;
+  background-position: 0 0,100% 11%;
+  background-size: auto,80%;
+  background-repeat: no-repeat;
 }
 .page-banner::before {
   position: absolute;
@@ -322,7 +334,7 @@ a {
   background-image: url("images/banner-image/fleet-banner.jpg");
 }
 .quotes-banner {
-  background-image: url("images/banner-image/estimation-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .faq-banner {
   background-image: url("images/banner-image/faq-banner.jpg");
