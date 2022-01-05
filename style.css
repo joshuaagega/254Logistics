@@ -325,25 +325,25 @@ a {
   padding: 0 5px;
 }
 .services-banner {
-  background-image: url("images/banner-image/services-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .blog-banner {
-  background-image: url("images/banner-image/blog-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .fleet-banner {
-  background-image: url("images/banner-image/fleet-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .quotes-banner {
   background-image: url("images/slider-image/slider-1.jpg");
 }
 .faq-banner {
-  background-image: url("images/banner-image/faq-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .error-banner {
-  background-image: url("images/banner-image/error-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 .contact-banner {
-  background-image: url("images/banner-image/contact-banner.jpg");
+  background-image: url("images/slider-image/slider-1.jpg");
 }
 
 /* - Navigation Menu */
